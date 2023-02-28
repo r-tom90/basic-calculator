@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@layer components {
+  .button {
+    height: 60px;
+    border-radius: 20px;
+    border: 1px solid #c4c4c4;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+    color: #f8f8f8;
+  }
+
+  .button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .button:active {
+    background-color: rgba(186, 186, 186, 0.4);
+  }
+}

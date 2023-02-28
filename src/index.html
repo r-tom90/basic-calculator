@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../icon.svg" type="image/x-icon" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="input.css" />
+    <title>Calculator</title>
+  </head>
+  <body
+    class="bg-[url('https://images.unsplash.com/photo-1638706647434-66d9c0ab33ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80')] bg-no-repeat"
+    alt="Background of ripples"
+  >
+    <div
+      id="calculator"
+      class="absolute top-[50%] left-[50%] w-[325px] translate-x-[-50%] translate-y-[-50%] rounded-[20px] border"
+    >
+      <div class="calculator-display flex justify-center">
+        <h1
+          class="mt-1 h-[70px] w-[96%] overflow-y-auto rounded-t-[20px] border-none bg-transparent pr-5 pl-5 text-right text-[3rem] text-white"
+        ></h1>
+      </div>
+      <div class="grid grid-cols-4 gap-3 p-2" id="keys">
+        <button class="button operator" value="+">+</button>
+        <button class="button operator" value="-">-</button>
+        <button class="button operator" value="*">&#215;</button>
+        <button class="button operator" value="/">&#247;</button>
+
+        <button class="button numbers" value="7">7</button>
+        <button class="button numbers" value="8">8</button>
+        <button class="button numbers" value="9">9</button>
+
+        <button class="button numbers" value="4">4</button>
+        <button class="button numbers" value="5">5</button>
+        <button class="button numbers" value="6">6</button>
+
+        <button class="button numbers" value="1">1</button>
+        <button class="button numbers" value="2">2</button>
+        <button class="button numbers" value="3">3</button>
+
+        <button class="button numbers" value="0">0</button>
+        <button class="button decimal" value=".">.</button>
+        <button
+          class="button bg-red-600 hover:bg-amber-500"
+          value="all-clear"
+          id="clearBtn"
+        >
+          AC
+        </button>
+        <button
+          class="button equal-sign operator col-start-4 col-end-5 row-start-2 row-end-6 h-full"
+          value="="
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="index.js" defer></script>
+</html>

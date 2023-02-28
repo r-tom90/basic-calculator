@@ -23,8 +23,8 @@ Calculator:
 
 ### Links
 
-- [View Github Repository](https://github.com/r-tom90/portfolio.git)
-- [View Live Site](https://richard-tom-portolio.vercel.app/)
+- [View Github Repository](https://github.com/r-tom90/basic-calculator)
+- [View Live Site](https://r-tom90.github.io/basic-calculator/)
 
 ## My process
 
